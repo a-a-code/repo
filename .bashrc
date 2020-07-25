@@ -11,6 +11,9 @@ alias work='cd ~/work/rumbl && mix phx.server'
 alias dotfiles='/usr/bin/git --git-dir=/home/quiet/.dotfiles.git/ --work-tree=/home/quiet'
 alias u='sudo pacman -Syu --noconfirm && sudo pacman -Scc --noconfirm && paccache -ruk0'
 
+# Prompt
+export PS1="\[\e[31m\]\A\[\e[m\]\[\e[31m\]>\[\e[m\] "
+
 # History
 set +o history
 
