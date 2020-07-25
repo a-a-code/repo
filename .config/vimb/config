@@ -1,0 +1,36 @@
+set       spell-checking-languages  = en
+set       download-path     = ~/
+set       font-size     = 16
+set       monospace-font-size   = 13
+set       editor-command      = termite -e "nim %s"
+set       input-autohide      = true
+set       spell-checking      = true
+set       webgl       = true
+set       incsearch     = true
+set     home-page     = about:blank
+set       default-font      = Source Code Pro
+set       sans-serif-font     = Source Code Pro
+set       serif-font      = Source Code Pro
+set       monospace-font      = Source Code Pro
+set       completion-css      = color:#d3d0c8;background-color:#393939;font:9pt DejaVu Sans Mono;
+set       completion-hover-css    = color:#d3d0c8;background-color:#393939;font:9pt DejaVu Sans Mono;
+set       completion-selected-css   = color:#d3d0c8;background-color:#515151;font:9pt DejaVu Sans Mono;
+set       input-css     = color:#d3d0c8;background-color:#393939;font:9pt DejaVu Sans Mono;
+set       input-error-css     = color:#f2777a;background-color:#393939;font:9pt DejaVu Sans Mono;
+set       status-css      = color:#ffcc66;background-color:#393939;font:9pt DejaVu Sans Mono;
+set       status-ssl-css      = color:#99cc99;background-color:#393939;font:9pt DejaVu Sans Mono;
+set     status-ssl-invalid-css    = color:#f2777a;background-color:#393939;font:9pt DejaVu Sans Mono;
+
+shortcut-add    r       = https://reddit.com
+shortcut-add    b       = https://bitwarden.com
+shortcut-add    m       = https://mail.tutanota.com
+shortcut-add    duck        = https://duckduckgo.com/?q=$0
+shortcut-add    k       = https://www.keybr.com/login/U1j4R9jgQk
+shortcut-add    y       = https://www.youtube.com/results?search_query=$0
+shortcut-add    yts       = https://yts.mx/browse-movies/$0/all/all/0/latest
+shortcut-default  duck
+
+
+nmap + zI
+nmap - zO
+nmap = zz
