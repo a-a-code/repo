@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/quiet/work/rumbl/lib/rumbl'
+let g:netrw_dirhist_5='/home/quiet/work/rumbl/lib/rumbl_web/controllers'
+let g:netrw_dirhist_4='/home/quiet/work/rumbl/lib/rumbl_web'
+let g:netrw_dirhist_3='/home/quiet/work/rumbl/lib'
+let g:netrw_dirhist_2='/home/quiet/work/rumbl/lib/rumbl'
+let g:netrw_dirhist_1='/home/quiet'
