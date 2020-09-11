@@ -38,10 +38,6 @@ colors:
     cyan:    '0x75a1a0'
     white:   '0x909090'
 
-visual_bell:
-  animation: EaseOutExpo
-  color: '0xffffff'
-  duration: 0
 background_opacity: 0.2
 
 key_bindings:
