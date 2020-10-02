@@ -49,7 +49,16 @@ bindsym   F1                    workspace number 1
 bindsym   $mod+F1               move container to workspace number 1
 bindsym   F2                    workspace number 2
 bindsym   $mod+F2               move container to workspace number 2
-bindsym   F3                    workspace number 3bindsym   $mod+F7               move container to workspace number 7
+bindsym   F3                    workspace number 3
+bindsym   $mod+F3               move container to workspace number 3
+bindsym   F4                    workspace number 4
+bindsym   $mod+F4               move container to workspace number 4
+bindsym   F5                    workspace number 5
+bindsym   $mod+F5               move container to workspace number 5
+bindsym   F6                    workspace number 6
+bindsym   $mod+F6               move container to workspace number 6
+bindsym   F7                    workspace number 7
+bindsym   $mod+F7               move container to workspace number 7
 bindsym   F8                    workspace number 8
 bindsym   $mod+F8               move container to workspace number 8
 bindsym   F9                    workspace number 9
@@ -64,11 +73,3 @@ bindsym   $mod+F12              move container to workspace number 12
 ## Assigns
 assign                          [app_id="firefoxdeveloperedition"] 12
 for_window                      [app_id="firefoxdeveloperedition"] inhibit_idle fullscreen
-bindsym   $mod+F3               move container to workspace number 3
-bindsym   F4                    workspace number 4
-bindsym   $mod+F4               move container to workspace number 4
-bindsym   F5                    workspace number 5
-bindsym   $mod+F5               move container to workspace number 5
-bindsym   F6                    workspace number 6
-bindsym   $mod+F6               move container to workspace number 6
-bindsym   F7                    workspace number 7
