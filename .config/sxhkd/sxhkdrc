@@ -1,28 +1,19 @@
 # terminal emulator
 alt + Return
-	alacritty
+	urxvt
 
 # web
 alt + @space
-	firefox
-
-# document viewer
-alt + v
-  zathura --mode fullscreen ~/work/ebook
-
-# steam
-alt + s
-	steam
+	firefox-developer-edition
 
 # volume
 XF86AudioRaiseVolume
-	pactl set-sink-volume @DEFAULT_SINK@ +5%
+	amixer set Master 5%+
 
 XF86AudioLowerVolume
-	pactl set-sink-volume @DEFAULT_SINK@ -5%
-
+	amixer set Master 5%-
 XF86AudioMute
-	pactl set-sink-mute @DEFAULT_SINK@ toggle
+	amixer set Master toggle
 
 # make sxhkd reload its configuration files:
 alt + Escape
