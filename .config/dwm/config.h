@@ -49,13 +49,12 @@ static const char *termcmd[]  = { "st", NULL };
 #define XF86AudioRaiseVolume    0x1008ff13
 static Key keys[] = {
 	{ MODKEY,                       XK_Return,                  spawn,          {.v = termcmd } },
-    { MODKEY,                       XK_space,                   spawn,          SHCMD("vimb") },
+    	{ MODKEY,                       XK_space,                   spawn,          SHCMD("vimb") },
 	{ MODKEY,                       XK_Tab,                     view,           {0} },
-    { MODKEY,                       XK_j,                       focusstack,     {.i = +1 } },
-    { MODKEY,                       XK_k,                       focusstack,     {.i = -1 } },
-    { 0,                            XF86AudioMute,              spawn,          SHCMD("amixer set Master toggle") },
-    { 0,                            XF86AudioRaiseVolume,       spawn,          SHCMD("amixer set Master 5%+") },
-    { 0,                            XF86AudioLowerVolume,       spawn,          SHCMD("amixer set Master 5%-") },
+    	{ MODKEY,                       XK_dollar,                  focusstack,     {.i = +1 } },
+    	{ 0,                            XF86AudioMute,              spawn,          SHCMD("amixer set Master toggle") },
+    	{ 0,                            XF86AudioRaiseVolume,       spawn,          SHCMD("amixer set Master 5%+") },
+    	{ 0,                            XF86AudioLowerVolume,       spawn,          SHCMD("amixer set Master 5%-") },
 	TAGKEYS(                        XK_F1,                                      0)
 	TAGKEYS(                        XK_F2,                                      1)
 	TAGKEYS(                        XK_F3,                                      2)
