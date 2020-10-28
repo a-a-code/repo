@@ -6,7 +6,6 @@ alias .='cd ..'
 alias ..='cd ../..'
 alias grep='grep --color=auto'
 alias ls='ls -ahl --color=auto'
-alias u='sudo pacman -Syu --noconfirm && sudo pacman -Scc --noconfirm && paccache -ruk0'
 
 # Prompt
 export PS1="\[\e[31m\]\A\[\e[m\]\[\e[31m\]>\[\e[m\] "
@@ -15,7 +14,7 @@ export PS1="\[\e[31m\]\A\[\e[m\]\[\e[31m\]>\[\e[m\] "
 set +o history
 
 # Exports
-export EDITOR=vim
+export EDITOR=nvim
 
 # LS after CD
 function cd {
